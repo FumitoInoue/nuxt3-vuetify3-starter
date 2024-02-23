@@ -14,6 +14,6 @@ export const useCounterStore = defineStore(
     return { count, increment, reset };
   },
   {
-    persist: true,
+    persist: true, // enable the store to be persisted
   }
 );

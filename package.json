@@ -9,7 +9,7 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "reset": "rm -rf .nuxt node_modules .output package-lock.json && npm install",
+    "reset": "rm -rf .nuxt node_modules .output package-lock.json && pnpm install",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
